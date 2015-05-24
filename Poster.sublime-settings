@@ -1,0 +1,7 @@
+{
+    "poster_url": "http://exmaple.com",
+    "poster_data": {
+        "a": "This is an example post item",
+        "b": "Another post variable"
+    }
+}
