@@ -14,7 +14,7 @@ The settings can take the following options:
 
 ``` json
 {
-	"poster_url": "http://exmaple.com",
+	"poster_url": "http://example.com",
 	"poster_data": {
 		"a": "This is an example post item",
 		"b": "Another post variable"
@@ -32,3 +32,7 @@ A shortcut is available, `ctrl+shift+o`, or you can find the option `Poster` in 
 ### Contributing
 
 If you find any issues or would like a new feature feel free to add a github issue or create a pull-request.
+
+### Attribution
+
+This plugin uses the [Requests](http://docs.python-requests.org/) HTTP library.
