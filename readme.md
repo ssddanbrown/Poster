@@ -8,17 +8,19 @@ Settings are accessed via the `Preferences` > `Package Settings` > `Poster` menu
 The settings can take the following options:
 
 * **poster_url** - The url to post data to.
-* **poster_data** - An object containing any extra variables you want to add to the post data.
+* **poster_content_key** - The post key that the current tab content will be sent on. Defaults to 'content'.
+* **poster_data** - An object containing any extra variables you want to add to the post data. This can be very useful for sending data to API's and you need to add keys.
 
-**The `poster_url` setting is required for Poster to work**. A typical settings file will look like this:
+**The `poster_url` setting is required for Poster to work**. Here is the default settings file:
 
 ``` json
 {
-	"poster_url": "http://example.com",
-	"poster_data": {
-		"a": "This is an example post item",
-		"b": "Another post variable"
-	}
+    "poster_url": "http://example.com",
+    "poster_content_key": "content",
+    "poster_data": {
+        "a": "This is an example post item",
+        "b": "Another post variable"
+    }
 }
 ``` 
 
