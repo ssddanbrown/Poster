@@ -24,8 +24,13 @@ The settings can take the following options:
 }
 ``` 
 
-The contents of the current tab will be added to the post data with a key of `content`.
+By default some extra post data is sent, "a" & "b", You can either override with your own `poster_data` or empty out the contents like below which will send no extra data:
 
+``` json
+{
+    "poster_data": {}
+}
+```
 
 ### How to use
 
